@@ -6,13 +6,15 @@
 }
 
 .today-date {
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 15px;
 }
 
 .today-time {
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 20px;
+}
+
+.today-forecast {
+  font-size: 15px;
 }
 
 .current-location {
