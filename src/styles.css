@@ -1,0 +1,202 @@
+.container {
+  margin-top: 70px;
+  border: 1px solid salmon;
+  padding: 70px 70px;
+  border-radius: 4px;
+}
+
+.today-date {
+  font-size: 15px;
+}
+
+.today-time {
+  font-size: 25px;
+}
+
+.current-location {
+  display: block;
+  position: absolute;
+  top: 15.5%;
+  right: 33%;
+  padding: 5px 20px;
+  border-radius: 4px;
+  border: 1px solid salmon;
+  background: white;
+  font-size: 10px;
+}
+
+.current-location:hover {
+  cursor: pointer;
+  background: salmon;
+  color: white;
+}
+
+.city-form {
+  display: block;
+  position: absolute;
+  top: 15%;
+  right: 14%;
+}
+
+input[type="text"] {
+  padding: 3px 10px;
+  border-radius: 4px;
+  border: 1px solid salmon;
+}
+
+input[type="submit"] {
+  padding: 3px 10px;
+  border-radius: 4px;
+  border: 1px solid salmon;
+  background: white;
+  color: salmon;
+}
+
+input[type="submit"]:hover {
+  background: salmon;
+  color: white;
+}
+
+.today-forecast {
+  text-transform: capitalize;
+}
+
+.today-emoji {
+  font-size: 100px;
+  margin-top: 10px;
+}
+
+.city {
+  font-size: 60px;
+}
+
+.city-temperature {
+  font-size: 60px;
+}
+
+.units {
+  font-size: 12px;
+  position: absolute;
+  right: 5%;
+  top: 25%;
+}
+
+.feels-like {
+  font-size: 12px;
+  position: relative;
+  top: 22%;
+  left: 4.8%;
+}
+
+.chance-of-rain {
+  font-size: 12px;
+  position: relative;
+  top: 130%;
+  left: 22%;
+}
+
+.sunrise {
+  font-size: 12px;
+  position: relative;
+  top: 150%;
+  left: 22%;
+}
+
+.precipitation {
+  font-size: 12px;
+  position: relative;
+  top: 120%;
+  right: -20%;
+}
+
+.sunset {
+  font-size: 12px;
+  position: relative;
+  top: 140%;
+  right: -20%;
+}
+
+.temperature-one {
+  position: relative;
+  left: 5%;
+}
+
+.emoji-one {
+  position: relative;
+  left: 5%;
+}
+
+.day-two {
+  position: relative;
+  left: -40%;
+}
+
+.temperature-two {
+  position: relative;
+  left: -35%;
+}
+
+.emoji-two {
+  position: relative;
+  left: -35%;
+}
+
+.day-three {
+  position: relative;
+  left: -75%;
+}
+
+.temperature-three {
+  position: relative;
+  left: -70%;
+}
+
+.emoji-three {
+  position: relative;
+  left: -70%;
+}
+
+.day-four {
+  position: relative;
+  left: -110%;
+}
+
+.temperature-four {
+  position: relative;
+  left: -105%;
+}
+
+.emoji-four {
+  position: relative;
+  left: -105%;
+}
+
+.day-five {
+  position: relative;
+  left: -140%;
+}
+
+.temperature-five {
+  position: relative;
+  left: -135%;
+}
+
+.emoji-five {
+  position: relative;
+  left: -135%;
+}
+
+.day-six {
+  position: relative;
+  left: -170%;
+}
+
+.temperature-six {
+  position: relative;
+  left: -165%;
+}
+
+.emoji-six {
+  position: relative;
+  left: -165%;
+}

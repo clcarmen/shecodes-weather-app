@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/styles.css" />
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <form class="city-form">
+            <input type="text" id="search-city-input" placeholder="Enter a city">
+            <input type="submit" id="search-city-button" value="Go">
+        </form>
+        
+        <button class="current-location">
+            Current Location
+        </button>
+
+        <div class="row">
+            <div class="col-2">
+                <div class="today">
+                    <div class="today-date">
+                        Date
+                    </div>
+                    <div class="today-time">
+                        Time
+                    </div>
+                    <div class="today-forecast">
+                        Mostly Sunny
+                    </div>
+                    <div class="today-emoji">
+                        🌥
+                    </div>
+                </div>
+            </div>
+            <div class="col-10">
+                <p class="city">
+                    <strong> City </strong>
+                </p>
+                <div class="row">
+                    <div class="col-2">
+                        <div>
+                            <p class="city-temperature">
+                                <strong> 17° </strong>
+                            </p>
+                            <p class="units">
+                                <a href="#" class="celsius">
+                                    C
+                                </a> |
+                                <a href="#" class="fahrenheit">
+                                    F
+                                </a> 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <div class="feels-like">
+                            Feels like
+                            <span class="feels-like-temperature">
+                                <strong> temperature </strong>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="chance-of-rain">
+                                    Chance of rain
+                                    <span class="chance-of-rain-percentage">
+                                        <strong> % </strong>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="precipitation">
+                                    Precipitation
+                                    <span class="precipitation-cm">
+                                        <strong> cm </strong>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="sunrise">
+                                    Sunrise
+                                    <span class="sunrise-time">
+                                        <strong> AM </strong>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="sunset">
+                                    Sunset
+                                    <span class="sunset-time">
+                                        <strong> PM </strong>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        </br>
+        <div class="row">
+            <div class="col-2">
+                <h6 class="day-one"> Day 1 </h6>
+                <p class="temperature-one">
+                    18°
+                </p>
+                <div class="emoji-one">
+                    ☁
+                </div>
+            </div>
+            <div class="col-2">
+                <h6 class="day-two"> Day 2 </h6>
+                <p class="temperature-two">
+                    18°
+                </p>
+                <div class="emoji-two">
+                    ☁
+                </div>
+            </div>
+            <div class="col-2">
+                <h6 class="day-three"> Day 3 </h6>
+                <p class="temperature-three">
+                    18°
+                </p>
+                <div class="emoji-three">
+                    ☁
+                </div>
+            </div>
+            <div class="col-2">
+                <h6 class="day-four"> Day 4 </h6>
+                <p class="temperature-four">
+                    18°
+                </p>
+                <div class="emoji-four">
+                    ☁
+                </div>
+            </div>
+            <div class="col-2">
+                <h6 class="day-five"> Day 5 </h6>
+                <p class="temperature-five">
+                    18°
+                </p>
+                <div class="emoji-five">
+                    ☁
+                </div>
+            </div>
+            <div class="col-2">
+                <h6 class="day-six"> Day 6 </h6>
+                <p class="temperature-six">
+                    18°
+                </p>
+                <div class="emoji-six">
+                    ☁
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script 
+    src="src/script.js">
+    </script>
+
+</body>
+</html>
