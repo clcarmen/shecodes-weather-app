@@ -6,11 +6,13 @@
 }
 
 .today-date {
-  font-size: 15px;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .today-time {
   font-size: 25px;
+  font-weight: bold;
 }
 
 .current-location {
