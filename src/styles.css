@@ -142,12 +142,12 @@ input[type="submit"]:hover {
 }
 .temperature-one {
   position: relative;
-  left: 5%;
+  left: 66%;
 }
 
 .emoji-one {
   position: relative;
-  left: 5%;
+  left: 65%;
 }
 
 .day-two {
@@ -157,12 +157,12 @@ input[type="submit"]:hover {
 
 .temperature-two {
   position: relative;
-  left: -5%;
+  left: 60%;
 }
 
 .emoji-two {
   position: relative;
-  left: -35%;
+  left: 60%;
 }
 
 .day-three {
@@ -172,12 +172,12 @@ input[type="submit"]:hover {
 
 .temperature-three {
   position: relative;
-  left: -70%;
+  left: 60%;
 }
 
 .emoji-three {
   position: relative;
-  left: -70%;
+  left: 60%;
 }
 
 .day-four {
@@ -187,12 +187,12 @@ input[type="submit"]:hover {
 
 .temperature-four {
   position: relative;
-  left: -105%;
+  left: 50%;
 }
 
 .emoji-four {
   position: relative;
-  left: -105%;
+  left: 50%;
 }
 
 .day-five {
@@ -202,12 +202,12 @@ input[type="submit"]:hover {
 
 .temperature-five {
   position: relative;
-  left: -135%;
+  left: 25%;
 }
 
 .emoji-five {
   position: relative;
-  left: -135%;
+  left: 25%;
 }
 
 .day-six {
@@ -217,12 +217,12 @@ input[type="submit"]:hover {
 
 .temperature-six {
   position: relative;
-  left: -90%;
+  left: 8%;
 }
 
 .emoji-six {
   position: relative;
-  left: -165%;
+  left: 8%;
 }
 
 .footer {
