@@ -204,3 +204,7 @@ input[type="submit"]:hover {
   position: relative;
   left: -165%;
 }
+
+.footer {
+  padding-left: 115px;
+}
