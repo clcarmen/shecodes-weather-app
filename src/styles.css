@@ -97,43 +97,29 @@ input[type="submit"]:hover {
   top: 25%;
 }
 
-.col-10 {
+.first10 {
   left: 40px;
 }
 
-.feels-like {
+.second10 {
+  left: 50px;
+  top: 20px;
   font-size: 12px;
-  position: relative;
-  top: 22%;
-  left: 4.6%;
+}
+
+.feels-like {
 }
 
 .chance-of-rain {
-  font-size: 12px;
-  position: relative;
-  top: 130%;
-  left: 22%;
 }
 
 .sunrise {
-  font-size: 12px;
-  position: relative;
-  top: 150%;
-  left: 22%;
 }
 
 .precipitation {
-  font-size: 12px;
-  position: relative;
-  top: 120%;
-  right: -20%;
 }
 
 .sunset {
-  font-size: 12px;
-  position: relative;
-  top: 140%;
-  right: -20%;
 }
 
 .day-one {
