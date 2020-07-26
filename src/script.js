@@ -33,8 +33,16 @@ displayDate.innerHTML = `${day} ${month} ${date}, ${year}`;
 let hours = now.getHours();
 let minutes = now.getMinutes();
 
-let displayTime = document.querySelector(".today-time");
-displayTime.innerHTML = `${hours}:${minutes}`;
+function displayTimeFunction() {
+  let displayTime = document.querySelector(".today-time");
+  if (minutes < 10) {
+    displayTime.innerHTML = `${hours}:0${minutes}`;
+  } else {
+    displayTime.innerHTML = `${hours}:${minutes}`;
+  }
+}
+
+displayTimeFunction();
 
 // DISPLAY CITY NAME AND TEMP AFTER SEARCH
 
