@@ -98,6 +98,14 @@ input[type="submit"]:hover {
   right: -30%;
   top: 25%;
 }
+.units .active {
+  color: black;
+  cursor: default;
+}
+
+.units .active:hover {
+  text-decoration: none;
+}
 
 .first9 {
   left: 20px;

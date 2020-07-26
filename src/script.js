@@ -66,6 +66,8 @@ function displayWeatherCondition(response) {
       "src",
       `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
     );
+
+  celsiusTemperature = response.data.main.temp;
 }
 
 function searchCity(cityName) {
@@ -85,13 +87,15 @@ function submitCity(event) {
 let city = document.querySelector(".city-form");
 city.addEventListener("submit", submitCity);
 
-searchCity("Ottawa");
-
 // BONUS - CHANGE FROM CELSIUS TO FAHRENHEIT
 
 function unitF(event) {
   let displayTempF = document.querySelector(".city-temperature");
-  displayTempF.innerHTML = `66`;
+  let fahrenheitTemp = Math.round((celsiusTemperature * 9) / 5 + 32);
+  displayTempF.innerHTML = `${fahrenheitTemp}`;
+
+  changeUnitF.classList.add("active");
+  changeUnitC.classList.remove("active");
 }
 
 let changeUnitF = document.querySelector(".fahrenheit");
@@ -99,11 +103,20 @@ changeUnitF.addEventListener("click", unitF);
 
 function unitC(event) {
   let displayTempC = document.querySelector(".city-temperature");
-  displayTempC.innerHTML = `17`;
+  displayTempC.innerHTML = Math.round(celsiusTemperature);
+
+  changeUnitF.classList.remove("active");
+  changeUnitC.classList.add("active");
 }
 
 let changeUnitC = document.querySelector(".celsius");
 changeUnitC.addEventListener("click", unitC);
+
+let celsiusTemperature = null;
+
+// search has to be after unit change
+
+searchCity("Ottawa");
 
 // BONUS - GEOLOCATION
 
