@@ -2,30 +2,22 @@
 
 let now = new Date();
 
-let days = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-];
+let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 let day = days[now.getDay()];
 
 let months = [
-  "January",
-  "February",
-  "March",
-  "April",
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
   "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
 ];
 let month = months[now.getMonth()];
 
@@ -50,13 +42,16 @@ function displayWeatherCondition(response) {
   document.querySelector(".city").innerHTML = response.data.name;
   document.querySelector(".city-temperature").innerHTML = `${Math.round(
     response.data.main.temp
-  )}°`;
+  )}`;
   console.log(response.data);
   document.querySelector(".feels-like-temperature").innerHTML = `${Math.round(
     response.data.main.feels_like
-  )}°`;
+  )}`;
   document.querySelector(".today-forecast").innerHTML =
-    response.data.weather[0].main;
+    response.data.weather[0].description;
+  document.querySelector(".humidity-value").innerHTML = `${Math.round(
+    response.data.main.humidity
+  )}%`;
 }
 
 function searchCity(cityName) {
@@ -82,7 +77,7 @@ searchCity("Ottawa");
 
 function unitF(event) {
   let displayTempF = document.querySelector(".city-temperature");
-  displayTempF.innerHTML = `66°`;
+  displayTempF.innerHTML = `66`;
 }
 
 let changeUnitF = document.querySelector(".fahrenheit");
@@ -90,7 +85,7 @@ changeUnitF.addEventListener("click", unitF);
 
 function unitC(event) {
   let displayTempC = document.querySelector(".city-temperature");
-  displayTempC.innerHTML = `17°`;
+  displayTempC.innerHTML = `17`;
 }
 
 let changeUnitC = document.querySelector(".celsius");

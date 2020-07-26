@@ -11,15 +11,15 @@
 }
 
 .today-date {
-  font-size: 10px;
+  font-size: 23px;
 }
 
 .today-time {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .today-forecast {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .current-location {
@@ -97,29 +97,15 @@ input[type="submit"]:hover {
   top: 25%;
 }
 
-.first10 {
-  left: 40px;
+.first9 {
+  left: 20px;
+  top: 30px;
 }
 
 .second10 {
   left: 50px;
   top: 20px;
   font-size: 12px;
-}
-
-.feels-like {
-}
-
-.chance-of-rain {
-}
-
-.sunrise {
-}
-
-.precipitation {
-}
-
-.sunset {
 }
 
 .day-one {
