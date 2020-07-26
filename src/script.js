@@ -60,6 +60,12 @@ function displayWeatherCondition(response) {
   document.querySelector(".humidity-value").innerHTML = `${Math.round(
     response.data.main.humidity
   )}%`;
+  document
+    .querySelector(".today-icon")
+    .setAttribute(
+      "src",
+      `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+    );
 }
 
 function searchCity(cityName) {
