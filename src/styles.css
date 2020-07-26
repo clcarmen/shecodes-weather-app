@@ -77,8 +77,7 @@ input[type="submit"]:hover {
   text-transform: capitalize;
 }
 
-.today-emoji {
-  font-size: 100px;
+.today-icon {
   margin-top: 10px;
 }
 
