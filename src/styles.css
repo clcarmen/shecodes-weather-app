@@ -79,6 +79,9 @@ input[type="submit"]:hover {
 
 .today-icon {
   margin-top: 10px;
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 
 .city {
